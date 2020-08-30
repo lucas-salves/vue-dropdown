@@ -35,4 +35,15 @@
         width: max-content;
         border-radius: 0px 0px 16px 16px;
     }
+
+    .fade-enter-active,
+    .fade-leave.active{
+        transition: all .5s ease-out;
+
+    }
+
+    .fade-enter,
+    .fade-leave-to{
+        opacity: 0;
+    }
 </style>
