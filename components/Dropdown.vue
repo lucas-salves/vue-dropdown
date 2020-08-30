@@ -20,5 +20,13 @@
 </script>
 
 <style>
-
+    nav .menu-item .sub-menu {
+        position: absolute;
+        background-color: #222;
+        top: calc(100% + 18px);
+        left: 50%;
+        transform: translateX(-50%);
+        width: max-content;
+        border-radius: 0px 0px 16px 16px;
+    }
 </style>
