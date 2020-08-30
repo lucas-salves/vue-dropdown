@@ -29,6 +29,12 @@ export default {
         transition: .4s;
     }
 
+    nav .menu-item:active,
+    nav .menu-item:hover{
+        background-color: #444;
+        border-bottom-color: #FF5858;
+    }
+
     nav .menu-item a {
         color: inherit;
         text-decoration: none;
