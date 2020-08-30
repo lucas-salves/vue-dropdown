@@ -1,22 +1,22 @@
 <template>
   <div id="app">
     <header>
-      
+        <Navbar/>
     </header>
   </div>
 </template>
 
 <script>
-
+import Navbar from './components/NavBar';
 
 export default {
   name: 'App',
   components: {
-    
+    Navbar
   }
 }
 </script>
-
+ 
 <style>
   *{
     margin: 0;
